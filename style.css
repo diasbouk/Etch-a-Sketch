@@ -1,0 +1,21 @@
+.parent {
+    background-color: aqua;
+}
+.child {
+    background-color: blue;
+}
+
+.box {
+    border: 1px solid;
+    display: flex;
+    height: 55px;
+}
+
+.smallbox {
+    border: 1px solid;
+    width: 55px;
+    height: 55px;
+}
+.smallbox:hover {
+    background-color: red;
+}
